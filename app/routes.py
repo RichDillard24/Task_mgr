@@ -21,7 +21,7 @@ def get_single_task(pk):
     single_task = task.select_by_id(pk)
     if single_task:
         out ={
-            "task":sigle_task,
+            "task":single_task,
             "ok":True
         }
         return out
